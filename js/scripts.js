@@ -1,32 +1,33 @@
 
 function principal() {
-  let resposta = document.getElementById("teste")
+
+  let resposta = document.getElementById("resp")
   let valor = resposta.value;
   let botao = document.getElementById("button")
   let tit = document.getElementById("titulo")
-  let teste = comparar(valor, gerarNumer)
+  let comp = comparar(valor, gerarNumer)
 
 
-    if(valor > 20 || valor < 1){
-      tit.innerHTML = "Você digitou um número invalido, tente novamente apertando F5"
+    if(valor > 30 || valor < 1){
+      tit.innerHTML = "Você digitou um número invalido! Reinicie a página para começar novamente"
       resposta.style.visibility = "hidden"
       botao.style.visibility = "hidden"
     } else{
-      switch (teste) {
+      switch (comp) {
 
         case -1:
-          tit.innerHTML = "Digite um número maior"
+          tit.innerHTML = `Digite um número maior que ${valor}:`
           break;
     
         case 0:
-          tit.innerHTML = "Parabéns, você acertou! Aperte F5 para reiniciar"
+          tit.innerHTML = "Parabéns, você acertou! Reinicie a página para começar novamente"
           resposta.style.visibility = "hidden"
           botao.style.visibility = "hidden"
           valor
           break;
     
         case 1:
-          tit.innerHTML = "Digite um número menor"
+          tit.innerHTML = `Digite um número menor que ${valor}:`
           break;
     
       }
@@ -34,7 +35,7 @@ function principal() {
 }
 
 function gerarNumero() {
-  return Math.floor(Math.random() * 20 + 1);
+  return Math.floor(Math.random() * 31 + 1);
 }
 
 let gerarNumer = gerarNumero();
