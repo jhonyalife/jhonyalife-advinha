@@ -1,5 +1,5 @@
 # jhonyalife-advinha
 
-Pequeno de advinha criado para testar conhecimentos em HTML, CSS e um pouquinho de JAVASCRIPT   
+Pequeno jogo de advinha criado para testar conhecimentos em JAVASCRIPT   
 
 <img src="./img/ProjetoJogo.png">
