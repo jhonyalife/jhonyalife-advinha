@@ -36,19 +36,4 @@ Este jogo foi criado com JavaScript puro e não requer nenhuma biblioteca ou dep
     <p>Jhony Alife</p>
 </div>
 
-<h1 align="center">Weather APP</h1>
-
-<p align="center">Esse projeto é uma aplicação que exibe os dados climáticos da região do usuário e de cidades escolhidas.</p>
-
-<p align="center">
- <a href="#features">Features</a> •
- <a href="#pré-requisitos">Pré Requisitos</a> •
- <a href="#rodando-o-mobile">Rodando a aplicação</a> •
- <a href="#tecnologias">Tecnologias</a> •
- <a href="#autor">Autor</a>
-</p>
-
----
-
-<br>
 
