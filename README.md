@@ -29,6 +29,15 @@ Este jogo foi criado com JavaScript puro e não requer nenhuma biblioteca ou dep
 
 ---
 
+## Deseja contribuir ?
+
+1. Faça o Fork do repositório.
+2. Crie uma branch `git checkout -b my-new-feature`
+3. Commit suas modificações `git commit -m 'add a feature'`
+4. Realize um push da sua branch `git push origin my-new-feature``
+
+**Depois que sua solicitação pull for mesclada **, você poderá excluir sua ramificação com segurança.
+
 ### Autor
 
 <div>
